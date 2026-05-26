@@ -1,0 +1,95 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.example
+env
+
+# Credentials and secrets
+*.pem
+*.key
+*.pfx
+*.p12
+fingpay_public_production*.txt
+credentials.json
+secrets.json
+
+# Database files
+*.sqlite3
+*.sqlite
+*.db
+*.postgres
+db.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Node modules and npm
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Build and dist
+dist/
+build/
+*.pot
+
+# Media and uploads
+/backend/media/
+/frontend/.next/
+/frontend/out/
+
+# Temporary files
+*.tmp
+*.bak
+.coverage
+.pytest_cache/
+htmlcov/

@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "QuickZaps",
+    "slug": "quickzaps",
+    "scheme": "quickzaps",
+    "version": "0.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": ["expo-router", "expo-secure-store", "expo-document-picker"],
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
